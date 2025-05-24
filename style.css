@@ -1,0 +1,188 @@
+body {
+    background-color: #eee;
+}
+
+h1 {
+    padding: 100px 30px 30px 30px;
+}
+
+h2 {
+    padding: 15px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+table,
+td,
+th {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    border: none;
+    border-radius: 3px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(6, 75, 118);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+table {
+    display: inline-block;
+    border: none;
+    background-color: #eee;
+    margin-top: 100px;
+}
+
+hr {
+    border: 1px solid black;
+
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    text-indent: 40px;
+}
+
+.sign-up {
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 700px;
+    margin: auto;
+}
+
+aside {
+    margin: 0 auto;
+    /* margin-right:30px; */
+}
+
+.other {
+    margin-top: 100px;
+    /* font-weight:500; */
+    font-size: large;
+}
+
+img[title="Руската църква"] {
+    height: 600px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #08356f;
+    border-top: 4px solid black;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 8px;
+    bottom: -10px;
+    left: -8px;
+
+}
+
+footer * {
+    color: white;
+}
+
+.sources {
+    text-indent: 0;
+    text-align: center;
+}
+
+.form p {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form a {
+    text-decoration: none;
+    color: rgb(70, 171, 70);
+}
+
+input {
+    border: 0.5px solid rgb(26, 25, 25);
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    width: 75%;
+    margin: 2px 0 2px 30px;
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 200px;
+}
+
+input[type="submit"] {
+    background-color: rgb(102, 232, 102);
+    width: 85.5%;
+}
+
+nav {
+    width: 100%;
+    height: fit-content;
+    background-color: #08356f;
+    /* padding:30px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #1654da;
+}
+
+
+.sources a {
+    text-decoration: none;
+}
+
+#home {
+    margin-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
